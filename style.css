@@ -1,0 +1,40 @@
+body {
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+.header {
+	border-bottom: 1px solid black;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	margin: 0 auto;
+}
+nav, a {
+	text-align: right;
+	display: inline;
+	position: relative;
+	padding: 10px;
+	margin: 0 0 40px 0;
+}
+
+.col-1 {
+	width: 20%;
+	display: block;
+	clear: both;
+	float: left;
+	position: absolute;
+}
+.col-2 {
+	width: 70%;
+	clear: both;
+	float: right;
+
+}
+.col-2 h2{
+	text-transform: uppercase;
+}
+.footer {
+	border-top: 1px solid black;
+	position: relative;
+	clear: both;
+}
